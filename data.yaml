@@ -1,0 +1,6 @@
+# data.yaml
+train: ./archive/Vehicle_Detection_Image_Dataset/train/images
+val: ./archive/Vehicle_Detection_Image_Dataset/valid/images
+
+nc: 1
+names: ["vehicle"]

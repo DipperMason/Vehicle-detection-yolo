@@ -1,7 +1,8 @@
 # Python
 __pycache__/
 *.py[cod]
-*.class
+*.pyc
+*.pyd
 *.so
 .Python
 env/
@@ -11,22 +12,28 @@ ENV/
 dist/
 build/
 *.egg-info/
+.eggs/
+*.egg
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+.DS_Store
 
 # Project specific
+archive/
 runs/
+detect/
+train*/
+vehicle_detection*/
 results/
-models/*.pt
-!models/.gitkeep
-data/archive/
 *.log
 *.pkl
+*.pt
+*.pth
 
 # OS
-.DS_Store
 Thumbs.db
+.DS_Store

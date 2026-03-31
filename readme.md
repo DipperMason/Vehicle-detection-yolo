@@ -34,14 +34,13 @@
 
 ### 1. Клонируйте репозиторий
 
-
-git clone https://github.com/yourusername/vehicle-detection.git
-cd vehicle-detection
-
-### 2. Установите зависимости
+```bash
+git clone https://github.com/DipperMason/vehicle-detection-yolo.git
+cd vehicle-detection-yolo
+2. Установите зависимости
 bash
 pip install -r requirements.txt
-### 3. Подготовьте датасет
+3. Подготовьте датасет
 Создайте файл data.yaml с путями к вашему датасету:
 
 yaml
@@ -49,7 +48,7 @@ train: ./path/to/train/images
 val: ./path/to/val/images
 nc: 1
 names: ['vehicle']
-### 4. Запустите программу
+4. Запустите программу
 bash
 python main.py
 Программа автоматически:
@@ -64,6 +63,7 @@ python main.py
 
 📊 Результаты работы
 После обучения вы увидите:
+
 text
 ========================================
    РЕЗУЛЬТАТЫ АНАЛИЗА
@@ -83,3 +83,4 @@ mAP50-95:  0.678
 📍 Подписи "vehicle" над каждым объектом
 
 📊 Чёрная панель со статистикой в левом верхнем углу
+
